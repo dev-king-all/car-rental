@@ -35,8 +35,8 @@ return [
         'redirect' => 'http://localhost:8000/auth/facebook/callback',
     ],
     'google' => [
-        'client_id' => '125655398413-o7ia6rueg891o9di4jrhq3til8381441.apps.googleusercontent.com',
-        'client_secret' => 'mQzEptovdqBER7DWzNM2w2_H',
+        'client_id' => '151312278146-vihbrqac2g5a6jcgojq9d9m9cn8teio4.apps.googleusercontent.com',
+        'client_secret' => 'i7Gtnk12Wx6MJnMF3ibfG9qw',
         'redirect' => 'http://localhost/lara-master/public/auth/google/callback',
     ],
 ];
