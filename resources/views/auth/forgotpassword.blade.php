@@ -15,9 +15,9 @@
                             </div>
                             <div class="nk-block nk-block-middle nk-auth-body">
                                 <div class="brand-logo pb-5">
-                                <a href="html/index.html" class="logo-link">
-                                    <img class="logo-light logo-img" src="http://localhost:8000/./admin/images/logo-small.png" srcset="http://localhost:8000/./admin/images/logo-small2x.png 2x " alt="logo">
-                                    <img class="logo-dark logo-img" src="http://localhost:8000/./admin/images/logo-dark-small.png" srcset="http://localhost:8000/./admin/images/logo-dark-small2x.png 2x" alt="logo-dark">
+                                    <a href="html/index.html" class="logo-link">
+                                        <img class="logo-light logo-img" src="{{ asset('./admin/images/logo-small.png') }}" srcset="{{ asset('./admin/images/logo-small2x.png 2x') }}" alt="logo">
+                                        <img class="logo-dark logo-img" src="{{ asset('./admin/images/logo-dark.png') }}" srcset="{{ asset('./admin/images/logo-dark-small2x.png 2x') }}" alt="logo-dark">
                                     </a>
                                 </div>
                                 <div class="nk-block-head">
