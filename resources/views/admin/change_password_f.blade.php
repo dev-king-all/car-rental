@@ -36,6 +36,7 @@
                                                                               name="password" required=""></div>
                                     </div>
                                 </div>
+                            </br>
                                 <div class="col-md-6">
                                     <div class="form-group"><label class="form-label"
                                                                    for="c_password">Confirm Password</label>
