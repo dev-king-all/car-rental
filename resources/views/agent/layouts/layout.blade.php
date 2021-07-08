@@ -13,7 +13,7 @@
     <title>xFusion App | Agents Dashboard</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="{{ asset('agent/css/dashlite.css?ver=2.4.0') }}">
-    <link id="skin-default" rel="stylesheet" href="{{ asset('agent/css/theme.css?ver=2.4.0') }}">
+    <link id="skin-default" rel="stylesheet" href="{{ asset('./admin/assets/css/skins/theme-green.css') }}">
 </head>
 
 <body class="nk-body npc-invest bg-lighter ">
@@ -580,7 +580,7 @@
                                     </div>
                                     <div class="dropdown-inner">
                                         <ul class="link-list">
-                                            <li><a class="dropdown-item" href="{{ route('logout') }}"
+                                            <li><a href="{{ route('logout') }}"
                                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                                     <em class="icon ni ni-signout"></em><span>  {{ __('Sign out') }}</span>
@@ -608,8 +608,7 @@
         <div class="nk-footer nk-footer-fluid bg-lighter">
             <div class="container-xl">
                 <div class="nk-footer-wrap">
-                    <div class="nk-footer-copyright"> &copy; 2020 DashLite. Template by <a href="#">Softnio</a>
-                    </div>
+                    <div class="nk-footer-copyright"> &copy; 2021 xFusion. All Rights Reserved.
                     <div class="nk-footer-links">
                         <ul class="nav nav-sm">
                             <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>

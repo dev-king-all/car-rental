@@ -43,24 +43,6 @@
                                                             <div class="nk-notification-time">2 hrs ago</div>
                                                         </div>
                                                     </div>
-                                                    <div class="nk-notification-item dropdown-inner">
-                                                        <div class="nk-notification-icon">
-                                                            <em class="icon icon-circle bg-primary-dim ni ni-share"></em>
-                                                        </div>
-                                                        <div class="nk-notification-content">
-                                                            <div class="nk-notification-text">You have shared <span>project v2</span> with Parvez.</div>
-                                                            <div class="nk-notification-time">7 days ago</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="nk-notification-item dropdown-inner">
-                                                        <div class="nk-notification-icon">
-                                                            <em class="icon icon-circle bg-success-dim ni ni-spark"></em>
-                                                        </div>
-                                                        <div class="nk-notification-content">
-                                                            <div class="nk-notification-text">Your <span>Subscription</span> renew successfully.</div>
-                                                            <div class="nk-notification-time">2 month ago</div>
-                                                        </div>
-                                                    </div>
                                                 </div><!-- .nk-notification -->
                                             </div><!-- .nk-dropdown-body -->
                                             <div class="dropdown-foot center">
@@ -92,9 +74,9 @@
                                             </div>
                                             <div class="dropdown-inner">
                                                 <ul class="link-list">
-                                                    <li><a class="dropdown-item" href="{{ route('logout') }}"
+                                                    <li><a href="{{ route('logout') }}"
                                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                                             document.getElementById('logout-form').submit();">
                                                             <em class="icon ni ni-signout"></em><span>  {{ __('Sign out') }}</span>
                                                         </a>
                                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

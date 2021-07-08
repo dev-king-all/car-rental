@@ -111,8 +111,8 @@
                                             <span>AB</span>
                                         </div>
                                         <div class="user-info">
-                                            <span class="lead-text">Abu Bin Ishtiyak</span>
-                                            <span class="sub-text">info@softnio.com</span>
+                                            <span class="lead-text">{{ Auth::user()->name }}</span>
+                                            <span class="sub-text">{{ Auth::user()->email }}</span>
                                         </div>
                                         <div class="user-action">
                                             <div class="dropdown">
@@ -120,19 +120,11 @@
                                                 <div class="dropdown-menu dropdown-menu-right">
                                                     <ul class="link-list-opt no-bdr">
                                                         <li><a href="#"><em class="icon ni ni-camera-fill"></em><span>Change Photo</span></a></li>
-                                                        <li><a href="#"><em class="icon ni ni-edit-fill"></em><span>Update Profile</span></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div><!-- .user-card -->
-                                </div><!-- .card-inner -->
-                                <div class="card-inner">
-                                    <div class="user-account-info py-0">
-                                        <h6 class="overline-title-alt">Nio Wallet Account</h6>
-                                        <div class="user-balance">12.395769 <small class="currency currency-btc">BTC</small></div>
-                                        <div class="user-balance-sub">Locked <span>0.344939 <span class="currency currency-btc">BTC</span></span></div>
-                                    </div>
                                 </div><!-- .card-inner -->
                                 <div class="card-inner p-0">
                                     <ul class="link-list-menu">
