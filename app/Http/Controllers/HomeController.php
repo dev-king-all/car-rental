@@ -37,7 +37,7 @@ class HomeController extends Controller
                 Mail::send('verify_email', $data, function($message) {
                     $message->to(Auth::user()->email, Auth::user()->name)->subject
                     ('Verification-Pending');
-                    $message->from(env('MAIL_USERNAME'),'Lara-Master');
+                    $message->from(env('MAIL_USERNAME'),'xFusion App');
                 });
                 Auth::logout();
                 return redirect('/admin/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
@@ -68,7 +68,7 @@ class HomeController extends Controller
                 Mail::send('verify_email', $data, function($message) {
                     $message->to(Auth::user()->email, Auth::user()->name)->subject
                     ('Verification-Pending');
-                    $message->from(env('MAIL_USERNAME'),'Lara-Master');
+                    $message->from(env('MAIL_USERNAME'),'xFusion App');
                 });
                 Auth::logout();
                 return redirect('/agent/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
@@ -99,7 +99,7 @@ class HomeController extends Controller
                 Mail::send('verify_email', $data, function($message) {
                     $message->to(Auth::user()->email, Auth::user()->name)->subject
                     ('Verification-Pending');
-                    $message->from(env('MAIL_USERNAME'),'Lara-Master');
+                    $message->from(env('MAIL_USERNAME'),'xFusion App');
                 });
                 Auth::logout();
                 return redirect('/client/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
