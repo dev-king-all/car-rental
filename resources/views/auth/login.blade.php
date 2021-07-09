@@ -24,7 +24,7 @@ Session::put('role', 'admin');
                                 </div>
 
                                 </br>
-
+                                </br>
                                 @if ($errors->any())
                                     <div class="alert alert-danger">
                                         <ul>
@@ -34,8 +34,6 @@ Session::put('role', 'admin');
                                         </ul>
                                     </div>
                                 @endif
-
-                                </br>
 
                                 <form method="POST" action="{{ route('login') }}">
                                     @csrf
