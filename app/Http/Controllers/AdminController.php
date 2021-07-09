@@ -55,7 +55,7 @@ class AdminController extends Controller
                 $data = Session::get('data');
                 $message->to($data['email'], $data['name'], $data['password'])->subject
                 ('Password-Changed');
-                $message->from(env('MAIL_USERNAME'),'Lara-Master');
+                $message->from(env('MAIL_USERNAME'),'xFusion App');
             });
             Session::flash('message', 'Password Updated Successfully!');
             return redirect()->back();
@@ -97,7 +97,7 @@ class AdminController extends Controller
                 $data = Session::get('data');
                 $message->to($data['email'], $data['name'])->subject
                 ('Account-Verified');
-                $message->from(env('MAIL_USERNAME'), 'Lara-Master');
+                $message->from(env('MAIL_USERNAME'), 'xFusion App');
             });
         }
         elseif ($user->role == 'Agent'){
@@ -105,7 +105,7 @@ class AdminController extends Controller
                 $data = Session::get('data');
                 $message->to($data['email'], $data['name'])->subject
                 ('Account-Verified');
-                $message->from(env('MAIL_USERNAME'), 'Lara-Master');
+                $message->from(env('MAIL_USERNAME'), 'xFusion App');
             });
         }
         else{
@@ -113,7 +113,7 @@ class AdminController extends Controller
                 $data = Session::get('data');
                 $message->to($data['email'], $data['name'])->subject
                 ('Account-Verified');
-                $message->from(env('MAIL_USERNAME'), 'Lara-Master');
+                $message->from(env('MAIL_USERNAME'), 'xFusion App');
             });
         }
         return redirect()->back();
