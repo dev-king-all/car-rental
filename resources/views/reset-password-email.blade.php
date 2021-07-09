@@ -18,7 +18,7 @@
                                     height="40"></a>
                         <p class="email-title"
                            style="box-sizing: border-box; margin-top: 0; margin-bottom: 0; font-size: 13px; color: #6576ff; padding-top: 12px;">
-                            Conceptual Base Modern Dashboard Theme</p></td>
+                            Password Reset Email</p></td>
                 </tr>
                 </tbody>
             </table>
