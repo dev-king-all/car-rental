@@ -35,7 +35,6 @@ Session::put('role', 'agent');
                                         </ul>
                                     </div>
                                 @endif
-                               </br>
 
                                 <form method="POST" action="{{ route('login') }}">
                                     @csrf
