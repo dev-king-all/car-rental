@@ -20,7 +20,7 @@
                         <table class="datatable-init table">
                         <thead>
                         <tr>
-                            <th>#</th>
+                            <th>ID</th>
                             <th>Full Name</th>
                             <th>Email</th>
                             <th>Role</th>
@@ -30,16 +30,16 @@
                         <tbody>
                         @foreach($users as $user)
                         <tr>
-                            <td>1</td>
+                            <td>{{ $user->id }}</td>
                             <td>{{ $user->name }}</td>
                             <td>{{ $user->email }}</td>
                             <td>{{ $user->role }}</td>
                             <td>
-                                {{ $user->is_verified == 1 ? 'Verified' : 'Not Verified' }}
+                                {{ $user->is_verified == 1 ? 'Active' : 'Pending Verification' }}
                                 @if($user->is_verified == 0)
                                 <form action="{{ route('update.verification.status', $user->id) }}">
                                     @csrf
-                                <button type="submit" class="btn-sm btn-success">verify now</button>
+                                <button type="submit" class="btn-sm btn-success">Verify User</button>
                                 </form>
                                     @endif
                             </td>
@@ -50,8 +50,6 @@
                 </div>
             </div>
             </div>
-
-
 
         </div>
     </div>
