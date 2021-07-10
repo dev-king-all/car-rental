@@ -93,13 +93,13 @@
                                 </div><!-- .card-inner -->
                                 <div class="card-inner p-0">
                                     <ul class="link-list-menu">
-                                        <li><a class="active" href="{{ route('admin.profile') }}"><em
+                                        <li><a href="{{ route('admin.profile') }}"><em
                                                         class="icon ni ni-user-fill-c"></em><span>Personal Infomation</span></a>
                                         </li>
                                         <li><a href="html/user-profile-notification.html"><em
                                                         class="icon ni ni-bell-fill"></em><span>Notifications</span></a>
                                         </li>
-                                        <li><a href="{{ route('account.activity') }}"><em
+                                        <li><a class="active" href="{{ route('account.activity') }}"><em
                                                         class="icon ni ni-activity-round-fill"></em><span>Account Activity</span></a>
                                         </li>
                                         <li><a href="{{ route('admin.change.password') }}"><em
