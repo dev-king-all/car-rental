@@ -17,9 +17,6 @@
                             <div class="nk-block-head nk-block-head-lg">
                                 <div class="nk-block-between">
                                     <div class="nk-block-head-content"><h4 class="nk-block-title">Login Activity</h4>
-                                        <div class="nk-block-des"><p>Here is your last 20 login activities log. <span
-                                                        class="text-soft"><em class="icon ni ni-info"></em></span></p>
-                                        </div>
                                     </div>
                                     <div class="nk-block-head-content align-self-start d-lg-none"><a href="#"
                                                                                                      class="toggle btn btn-icon btn-trigger mt-n1"
@@ -46,7 +43,7 @@
                                         <td class="tb-col-time"><span class="sub-text">{{\Carbon\Carbon::parse($activity->last_login_at)->format('d M')}}  <span
                                                         class="d-none d-sm-inline-block">{{ date('H:i a', strtotime($activity->last_login_at)) }}</span></span></td>
                                         <td class="tb-col-action"><a href="{{ route('delete.activity', $activity->id) }}" class="link-cross mr-sm-n1"><em
-                                                        class="icon ni ni-cross"></em></a></td>
+                                                        class="icon ni ni-trash"></em></a></td>
                                     </tr>
                                     @endforeach
                                     </tbody>
@@ -62,8 +59,8 @@
                                             <span>AB</span>
                                         </div>
                                         <div class="user-info">
-                                            <span class="lead-text">Abu Bin Ishtiyak</span>
-                                            <span class="sub-text">info@softnio.com</span>
+                                            <span class="lead-text">{{ Auth::user()->name }}</span>
+                                            <span class="sub-text">{{ Auth::user()->email }}</span>
                                         </div>
                                         <div class="user-action">
                                             <div class="dropdown">
@@ -73,23 +70,11 @@
                                                     <ul class="link-list-opt no-bdr">
                                                         <li><a href="#"><em class="icon ni ni-camera-fill"></em><span>Change Photo</span></a>
                                                         </li>
-                                                        <li><a href="#"><em class="icon ni ni-edit-fill"></em><span>Update Profile</span></a>
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div><!-- .user-card -->
-                                </div><!-- .card-inner -->
-                                <div class="card-inner">
-                                    <div class="user-account-info py-0">
-                                        <h6 class="overline-title-alt">Nio Wallet Account</h6>
-                                        <div class="user-balance">12.395769
-                                            <small class="currency currency-btc">BTC</small>
-                                        </div>
-                                        <div class="user-balance-sub">Locked <span>0.344939 <span
-                                                        class="currency currency-btc">BTC</span></span></div>
-                                    </div>
                                 </div><!-- .card-inner -->
                                 <div class="card-inner p-0">
                                     <ul class="link-list-menu">
