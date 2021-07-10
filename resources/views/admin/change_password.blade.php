@@ -93,30 +93,18 @@
                                                     <ul class="link-list-opt no-bdr">
                                                         <li><a href="#"><em class="icon ni ni-camera-fill"></em><span>Change Photo</span></a>
                                                         </li>
-                                                        <li><a href="#"><em class="icon ni ni-edit-fill"></em><span>Update Profile</span></a>
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div><!-- .user-card -->
                                 </div><!-- .card-inner -->
-                                <div class="card-inner">
-                                    <div class="user-account-info py-0">
-                                        <h6 class="overline-title-alt">Nio Wallet Account</h6>
-                                        <div class="user-balance">12.395769
-                                            <small class="currency currency-btc">BTC</small>
-                                        </div>
-                                        <div class="user-balance-sub">Locked <span>0.344939 <span
-                                                        class="currency currency-btc">BTC</span></span></div>
-                                    </div>
-                                </div><!-- .card-inner -->
                                 <div class="card-inner p-0">
                                     <ul class="link-list-menu">
-                                        <li><a class="active" href="{{ route('admin.profile') }}"><em class="icon ni ni-user-fill-c"></em><span>Personal Infomation</span></a></li>
+                                        <li><a href="{{ route('admin.profile') }}"><em class="icon ni ni-user-fill-c"></em><span>Personal Infomation</span></a></li>
                                         <li><a href="html/user-profile-notification.html"><em class="icon ni ni-bell-fill"></em><span>Notifications</span></a></li>
                                         <li><a href="{{ route('account.activity') }}"><em class="icon ni ni-activity-round-fill"></em><span>Account Activity</span></a></li>
-                                        <li><a href="{{ route('admin.change.password') }}"><em class="icon ni ni-lock-alt-fill"></em><span>Security Settings</span></a></li>
+                                        <li><a class="active" href="{{ route('admin.change.password') }}"><em class="icon ni ni-lock-alt-fill"></em><span>Security Settings</span></a></li>
                                     </ul>
                                 </div><!-- .card-inner -->
                             </div><!-- .card-inner-group -->
