@@ -4,8 +4,9 @@
 <!-- main header @e -->
 
 @include ('admin/layouts/sidebar_nav')
+
 <style>
-    /*! CSS Used from: https://dashlite.net/demo5/assets/css/dashlite.css?ver=2.5.0 */
+    /*! CSS Used for the Buy Sell Window */
     *,*::before,*::after{box-sizing:border-box;}
     h5{margin-top:0;margin-bottom:.5rem;}
     ul{margin-top:0;margin-bottom:1rem;}
@@ -310,6 +311,7 @@
     @font-face{font-family:'Nunito';src:url("https://dashlite.net/demo5/assets/fonts/Nunito-Bold.eot");src:local("Nunito Bold"),local("Nunito-Bold"),url("https://dashlite.net/demo5/assets/fonts/Nunito-Bold.eot#iefix") format("embedded-opentype"),url("https://dashlite.net/demo5/assets/fonts/Nunito-Bold.woff2") format("woff2"),url("https://dashlite.net/demo5/assets/fonts/Nunito-Bold.woff") format("woff"),url("https://dashlite.net/demo5/assets/fonts/Nunito-Bold.ttf") format("truetype");font-weight:bold;font-style:normal;}
     @font-face{font-family:"Nioicon";src:url("https://dashlite.net/demo5/assets/fonts/Nioicon.eot");src:url("https://dashlite.net/demo5/assets/fonts/Nioicon.eot#iefix") format("embedded-opentype"),url("https://dashlite.net/demo5/assets/fonts/Nioicon.ttf") format("truetype"),url("https://dashlite.net/demo5/assets/fonts/Nioicon.woff") format("woff"),url("https://dashlite.net/demo5/assets/fonts/Nioicon.svg#Nioicon") format("svg");font-weight:normal;font-style:normal;font-display:block;}
 </style>
+
 <body class="nk-body npc-default has-apps-sidebar has-sidebar ">
 <div class="nk-content nk-content-fluid">
     <div class="container-xl wide-lg">
