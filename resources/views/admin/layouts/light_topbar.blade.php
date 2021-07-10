@@ -67,8 +67,8 @@
                                             <div class="dropdown-inner">
                                                 <ul class="link-list">
                                                     <li><a href="{{ route('admin.profile') }}"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
-                                                    <li><a href="html/user-profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Manage Settings</span></a></li>
-                                                    <li><a href="html/user-profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                    <li><a href="{{ route('admin.change.password') }}"><em class="icon ni ni-setting-alt"></em><span>Manage Settings</span></a></li>
+                                                    <li><a href="{{ route('account.activity') }}"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
                                                     <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
                                                 </ul>
                                             </div>
