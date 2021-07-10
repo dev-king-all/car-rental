@@ -17,11 +17,7 @@
                             <div class="nk-block-head nk-block-head-lg">
                                 <div class="nk-block-between">
                                     <div class="nk-block-head-content"><h4 class="nk-block-title">Security Settings</h4>
-                                        <div class="nk-block-des"><p>These settings are what help you keep your account secure.</p></div>
                                     </div>
-                                    <div class="nk-block-head-content align-self-start d-lg-none"><a href="#" class="toggle btn btn-icon btn-trigger mt-n1"
-                                     data-target="userAside"><em
-                                     class="icon ni ni-menu-alt-r"></em></a></div>
                                 </div>
                             </div>
                             <div class="nk-block">
@@ -82,8 +78,8 @@
                                             <span>AB</span>
                                         </div>
                                         <div class="user-info">
-                                            <span class="lead-text">Abu Bin Ishtiyak</span>
-                                            <span class="sub-text">info@softnio.com</span>
+                                            <span class="lead-text">{{ Auth::user()->name }}</span>
+                                            <span class="sub-text">{{ Auth::user()->email }}</span>
                                         </div>
                                         <div class="user-action">
                                             <div class="dropdown">
