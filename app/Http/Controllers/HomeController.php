@@ -40,7 +40,7 @@ class HomeController extends Controller
                     $message->from(env('MAIL_USERNAME'),'xFusion App');
                 });
                 Auth::logout();
-                return redirect('/admin/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
+                return redirect('/admin/login')->withErrors(['Thank you for Checking up on Us :) Your account has not been approved by our Administrators, please be patient, you should receive a mail from us soon :)']);
             }
             else {
                 $browser = new Parser(null, null, [
@@ -60,7 +60,7 @@ class HomeController extends Controller
         }
         elseif (Auth::user()->role != 'SuperAdmin' && $session_role == 'Admin' || Auth::user()->role != 'Admin' && $session_role == 'Admin'){
             Auth::logout();
-            return redirect('/admin/login')->withErrors(['Email or Password is incorrect']);
+            return redirect('/admin/login')->withErrors(['The Email or Password you entered is incorrect. Please Try Again.']);
         }
         elseif (Auth::user()->role == 'Agent' && $session_role == 'Agent'){
             if(Auth::user()->is_verified == 0){
@@ -71,7 +71,7 @@ class HomeController extends Controller
                     $message->from(env('MAIL_USERNAME'),'xFusion App');
                 });
                 Auth::logout();
-                return redirect('/agent/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
+                return redirect('/agent/login')->withErrors(['Thank you for Checking up on Us :) Your account has not been approved by our Administrators, please be patient, you should receive a mail from us soon. :)']);
             }
             else {
                 $browser = new Parser(null, null, [
@@ -91,7 +91,7 @@ class HomeController extends Controller
         }
         elseif (Auth::user()->role != 'Agent' && $session_role == 'Agent'){
             Auth::logout();
-            return redirect('/agent/login')->withErrors(['Email or Password is incorrect']);
+            return redirect('/agent/login')->withErrors(['The Email or Password you entered is incorrect. Please Try Again.']);
         }
         elseif (Auth::user()->role == 'Client' && $session_role == 'Client'){
             if(Auth::user()->is_verified == 0){
@@ -102,7 +102,7 @@ class HomeController extends Controller
                     $message->from(env('MAIL_USERNAME'),'xFusion App');
                 });
                 Auth::logout();
-                return redirect('/client/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
+                return redirect('/client/login')->withErrors(['Thank you for Checking up on Us. :) Your account has not been approved by our Administrators, please be patient, you should receive a mail from us soon. :)']);
             }
             else {
                 $browser = new Parser(null, null, [
@@ -122,10 +122,10 @@ class HomeController extends Controller
         }
         elseif (Auth::user()->role != 'Client' && $session_role == 'Client'){
             Auth::logout();
-            return redirect('/client/login')->withErrors(['Email or Password is incorrect']);
+            return redirect('/client/login')->withErrors(['The Email or Password you entered is incorrect. Please Try Again.']);
         }
         else{
-            return redirect()->back()->withErrors(['Email or Password is incorrect']);
+            return redirect()->back()->withErrors(['The Email or Password you entered is incorrect. Please Try Again.']);
         }
 
     }
