@@ -10,7 +10,6 @@
                 <div class="nk-sidebar-body">
                     <div class="nk-sidebar-content" data-simplebar="init"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll;"><div class="simplebar-content" style="padding: 0px;">
                         <div class="nk-sidebar-menu">
-
                             <!-- Primary Sidebar Navigation Menu -->
                             <ul class="nk-menu apps-menu">
                                 <li class="nk-menu-hr"></li>
