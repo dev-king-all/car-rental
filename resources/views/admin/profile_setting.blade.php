@@ -71,6 +71,7 @@
                                         </div>
                                         <div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
                                     </div><!-- data-item -->
+
                                 </div><!-- data-list -->
                                 <div class="nk-data data-list">
                                     <div class="data-head">
@@ -208,13 +209,20 @@
                                 <div class="form-group">
                                     <label class="form-label" for="address-l1">Address Line 1</label>
                                     <input type="text" class="form-control form-control-lg" id="address1" name="address1" value="{{ Auth::user()->profile->address1 }}">
+                                    <div class="form-control-wrap">
+                                        <textarea class="form-control form-control-sm" id="address1"  value="{{ Auth::user()->profile->address1 }}"></textarea>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-label" for="address-l2">Address Line 2</label>
                                     <input type="text" class="form-control form-control-lg" id="address2" name="address2" value="{{ Auth::user()->profile->address2 }}">
+                                    <div class="form-control-wrap">
+                                        <textarea class="form-control form-control-sm" id="address2" value="{{ Auth::user()->profile->address2 }}"></textarea>
+                                    </div>
                                 </div>
+
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
