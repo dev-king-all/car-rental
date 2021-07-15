@@ -88,7 +88,7 @@ class LoginController extends Controller
                             $message->from(env('MAIL_USERNAME'),'xFusion App');
                         });
                         Auth::logout();
-                        return redirect('/admin/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
+                        return redirect('/admin/login')->withErrors(['Thank you for Checking up on Us :) Your account has not been approved by our Administrators, please be patient, you should receive a mail from us soon :)']);
                     }
                     else {
                         $browser = new Parser(null, null, [
@@ -115,7 +115,7 @@ class LoginController extends Controller
                             $message->from(env('MAIL_USERNAME'),'xFusion App');
                         });
                         Auth::logout();
-                        return redirect('/agent/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
+                        return redirect('/agent/login')->withErrors(['Thank you for Checking up on Us :) Your account has not been approved by our Administrators, please be patient, you should receive a mail from us soon :)']);
                     }
                     else {
                         $browser = new Parser(null, null, [
@@ -142,7 +142,7 @@ class LoginController extends Controller
                             $message->from(env('MAIL_USERNAME'),'xFusion App');
                         });
                         Auth::logout();
-                        return redirect('/client/login')->withErrors(['Your account request is in pending and under supervision of Super Admin. Soon your request will be verified.']);
+                        return redirect('/client/login')->withErrors(['Thank you for Checking up on Us :) Your account has not been approved by our Administrators, please be patient, you should receive a mail from us soon :)']);
                     }
                     else {
                         $browser = new Parser(null, null, [
