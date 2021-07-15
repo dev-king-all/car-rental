@@ -10,14 +10,10 @@
                 <tbody style="box-sizing: border-box;">
                 <tr style="box-sizing: border-box;">
                     <td class="text-center pb-4"
-                        style="box-sizing: border-box; padding-bottom: 1.5rem; text-align: center;" align="center"><a
-                                href="#"
-                                style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all;"><img
-                                    class="email-logo" src="https://dashlite.net/demo3/images/logo-dark2x.png" alt="logo"
-                                    style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; height: 40px;"
-                                    height="40"></a>
+                        style="box-sizing: border-box; padding-bottom: 1.5rem; text-align: center;" align="center">
+                        <a href="#" style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all;"><img class="email-logo" src="https://www.backbase.com/wp-content/uploads/2020/05/Microsoft-Logo-PNG-Transparent.png" alt="logo" style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; height: 40px;" height="40"></a>
                         <p class="email-title"
-                           style="box-sizing: border-box; margin-top: 0; margin-bottom: 0; font-size: 13px; color: #6576ff; padding-top: 12px;">
+                           style="box-sizing: border-box; margin-top: 0; margin-bottom: 0; font-size: 13px; color: #1ee0ac; padding-top: 12px;">
                             Password Reset Email</p></td>
                 </tr>
                 </tbody>
@@ -37,13 +33,13 @@
                     <td class="px-3 px-sm-5" style="box-sizing: border-box; padding-right: 1rem; padding-left: 1rem;"><p
                                 style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem;">Hi {{ $name }},</p>
                         <p style="box-sizing: border-box; margin-top: 0; margin-bottom: 0;">You have successfully
-                            reseted your password.</p></td>
+                            reset your password.</p></td>
                 </tr>
                 <br>
                 <tr style="box-sizing: border-box;">
                     <td class="px-3 px-sm-5" style="box-sizing: border-box; padding-right: 1rem; padding-left: 1rem;"><p
-                                style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem;">Your New Password</p>
-                        <h1 style="box-sizing: border-box; margin-top: 0; margin-bottom: 0;">
+                                style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem;">Your New Password is:</p>
+                        <h1 style="box-sizing: border-box; margin-top: 0; margin-bottom: 0; color: #000000;">
                             {{ $password }}
                         </h1></td>
                 </tr>
@@ -67,48 +63,20 @@
             <table class="email-footer"
                    style="box-sizing: border-box; border-collapse: collapse; width: 100%; max-width: 620px; margin: 0 auto;"
                    width="100%">
-                <tbody style="box-sizing: border-box;">
-                <tr style="box-sizing: border-box;">
-                    <td class="text-center pt-4"
-                        style="box-sizing: border-box; padding-top: 1.5rem; text-align: center;" align="center"><p
-                                class="email-copyright-text"
-                                style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; font-size: 13px;">
-                            Copyright © 2020 DashLite. All rights reserved. <br style="box-sizing: border-box;">
-                            Template Made By <a href="https://themeforest.net/user/softnio/portfolio"
-                                                style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all;">Softnio</a>.
-                        </p>
-                        <ul class="email-social"
-                            style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; list-style: none; margin: 0; padding: 0;">
-                            <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#"
-                                                                                                        style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img
-                                            src="/demo3/images/socials/facebook.png" alt=""
-                                            style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;"
-                                            width="30"></a></li>
-                            <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#"
-                                                                                                        style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img
-                                            src="/demo3/images/socials/twitter.png" alt=""
-                                            style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;"
-                                            width="30"></a></li>
-                            <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#"
-                                                                                                        style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img
-                                            src="/demo3/images/socials/youtube.png" alt=""
-                                            style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;"
-                                            width="30"></a></li>
-                            <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#"
-                                                                                                        style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img
-                                            src="/demo3/images/socials/medium.png" alt=""
-                                            style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;"
-                                            width="30"></a></li>
-                        </ul>
-                        <p class="fs-12px pt-4"
-                           style="box-sizing: border-box; margin-top: 0; margin-bottom: 0; font-size: 12px; padding-top: 1.5rem;">
-                            This email was sent to you as a registered member of <a href="https://softnio.com"
-                                                                                    style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all;">softnio.com</a>.
-                            To update your emails preferences <a href="#"
-                                                                 style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all;">click
-                                here</a>.</p></td>
-                </tr>
-                </tbody>
+                   <tbody style="box-sizing: border-box;">
+                   <tr style="box-sizing: border-box;">
+                       <td class="text-center pt-4" style="box-sizing: border-box; padding-top: 1.5rem; text-align: center;" align="center">
+                           <p class="email-copyright-text" style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; font-size: 13px;">Copyright © 2021 xFusion. All rights reserved. <br style="box-sizing: border-box;">.</p>
+                           <ul class="email-social" style="box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; list-style: none; margin: 0; padding: 0;">
+                               <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#" style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img src="https://cdn.icon-icons.com/icons2/642/PNG/128/facebook_icon-icons.com_59205.png" alt="" style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;" width="30"></a></li>
+                               <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#" style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img src="https://cdn.icon-icons.com/icons2/1211/PNG/128/1491579542-yumminkysocialmedia22_83078.png" alt="" style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;" width="30"></a></li>
+                               <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#" style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="" style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;" width="30"></a></li>
+                               <li style="box-sizing: border-box; display: inline-block; padding: 4px;"><a href="#" style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all; display: inline-block; height: 30px; width: 30px; border-radius: 50%; background: #ffffff;"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/128/3721675-medium_108052.png" alt="" style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; width: 30px;" width="30"></a></li>
+                           </ul>
+                           <p class="fs-12px pt-4" style="box-sizing: border-box; margin-top: 0; margin-bottom: 0; font-size: 12px; padding-top: 1.5rem;">This is an automated email sent to you by the xFusion App <a href="https://xfusion.io" style="box-sizing: border-box; text-decoration: none; background-color: transparent; transition: color .4s, background-color .4s, border .4s, box-shadow .4s; color: #6576ff; word-break: break-all;">xfusion.io</a>. Please do not respond to this Email.</p>
+                       </td>
+                   </tr>
+                   </tbody>
             </table>
         </td>
     </tr>
