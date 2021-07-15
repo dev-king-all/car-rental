@@ -42,7 +42,7 @@ class AdminController extends Controller
     public function admin_c_p(Request $request)
     {
         if ($request->password != $request->c_password) {
-            return redirect()->back()->withErrors(['password not matched!']);
+            return redirect()->back()->withErrors(['The Passwords you entered Do Not Match. Please Try Again.']);
         }
         else{
             $admin = User::where('id', Auth::id())->first();
@@ -57,7 +57,7 @@ class AdminController extends Controller
                 ('Password-Changed');
                 $message->from(env('MAIL_USERNAME'),'xFusion App');
             });
-            Session::flash('message', 'Password Updated Successfully!');
+            Session::flash('message', 'The Password was Updated Successfully!');
             return redirect()->back();
         }
 
