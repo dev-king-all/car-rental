@@ -14,17 +14,11 @@
                             <a href="#" class="toggle btn btn-white btn-icon btn-light" data-target="athPromo"><em class="icon ni ni-info"></em></a>
                         </div>
                         <div class="nk-block nk-block-middle nk-auth-body">
-                            <div class="brand-logo pb-5">
-                                <a href="html/index.html" class="logo-link">
-                                    <img class="logo-light logo-img" src="http://localhost:8000/./admin/images/logo-small.png" srcset="http://localhost:8000/./admin/images/logo-small2x.png 2x " alt="logo">
-                                    <img class="logo-dark logo-img" src="http://localhost:8000/./admin/images/logo-dark-small.png" srcset="http://localhost:8000/./admin/images/logo-dark-small2x.png 2x" alt="logo-dark">
-                                </a>
-                            </div>
                             <div class="nk-block-head">
                                 <div class="nk-block-head-content">
                                     <h5 class="nk-block-title">Reset password</h5>
                                     <div class="nk-block-des">
-                                        <p>If you forgot your password, well, then we’ll email you instructions to reset your password.</p>
+                                        <p>Please enter the Email you used to register at xFusion and we will be happy to send you a reset password link. :) </p>
                                     </div>
                                 </div>
                             </div><!-- .nk-block-head -->
@@ -67,17 +61,54 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Privacy Policy</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Help</a>
-                                    </li>
                                 </ul><!-- .nav -->
                             </div>
                             <div class="mt-3">
-                                <p>&copy; 2019 DashLite. All Rights Reserved.</p>
+                                <p>&copy; 2021 xFusion. All Rights Reserved.</p>
                             </div>
                         </div><!-- .nk-block -->
                     </div><!-- .nk-split-content -->
-                    <div class="nk-split-content nk-split-stretch bg-abstract"></div><!-- .nk-split-content -->
+                    <div class="nk-split-content nk-split-stretch bg-lighter d-flex toggle-break-lg toggle-slide toggle-slide-right" data-content="athPromo" data-toggle-screen="lg" data-toggle-overlay="true">
+                        <div class="slider-wrap w-100 w-max-550px p-3 p-sm-5 m-auto">
+                            <div class="slider-init" data-slick='{"dots":true, "arrows":false}'>
+                                <div class="slider-item">
+                                    <div class="nk-feature nk-feature-center">
+                                        <div class="nk-feature-img">
+                                            <img class="round" src="{{ asset('./admin/images/slides/promo-a.png') }}" srcset="{{ asset('./admin/images/slides/promo-a2x.png 2x') }}" alt="">
+                                        </div>
+                                        <div class="nk-feature-content py-4 p-sm-5">
+                                            <h4>Dashlite</h4>
+                                            <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- .slider-item -->
+                                <div class="slider-item">
+                                    <div class="nk-feature nk-feature-center">
+                                        <div class="nk-feature-img">
+                                            <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
+                                        </div>
+                                        <div class="nk-feature-content py-4 p-sm-5">
+                                            <h4>Dashlite</h4>
+                                            <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- .slider-item -->
+                                <div class="slider-item">
+                                    <div class="nk-feature nk-feature-center">
+                                        <div class="nk-feature-img">
+                                            <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
+                                        </div>
+                                        <div class="nk-feature-content py-4 p-sm-5">
+                                            <h4>Dashlite</h4>
+                                            <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- .slider-item -->
+                            </div><!-- .slider-init -->
+                            <div class="slider-dots"></div>
+                            <div class="slider-arrows"></div>
+                        </div><!-- .slider-wrap -->
+                    </div><!-- .nk-split -->
                 </div><!-- .nk-split -->
             </div>
             <!-- wrap @e -->
