@@ -178,7 +178,7 @@
         <!-- main header @e -->
 
 
-@yield('content');
+@yield('content')
 
 
         <!-- footer @s -->
