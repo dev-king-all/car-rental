@@ -82,28 +82,6 @@
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->
-                                    <div class="slider-item">
-                                        <div class="nk-feature nk-feature-center">
-                                            <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
-                                            </div>
-                                            <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- .slider-item -->
-                                    <div class="slider-item">
-                                        <div class="nk-feature nk-feature-center">
-                                            <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
-                                            </div>
-                                            <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- .slider-item -->
                                 </div><!-- .slider-init -->
                                 <div class="slider-dots"></div>
                                 <div class="slider-arrows"></div>

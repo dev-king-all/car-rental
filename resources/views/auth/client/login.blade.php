@@ -82,33 +82,33 @@ Session::put('role', 'client');
                                     <div class="slider-item">
                                         <div class="nk-feature nk-feature-center">
                                             <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-a.png') }}" srcset="{{ asset('./admin/images/slides/promo-a2x.png 2x') }}" alt="">
+                                                <img class="round" src="{{ asset('./admin/images/slides/cdashboard.png') }}" srcset="{{ asset('./admin/images/slides/cdashboard2x.png 2x') }}" alt="">
                                             </div>
                                             <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                                <h4>Dashboard</h4>
+                                                <p>Get Insights on how your account is performing, on one Dashboard you can measure the performance of your account. </p>
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->
                                     <div class="slider-item">
                                         <div class="nk-feature nk-feature-center">
                                             <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
+                                                <img class="round" src="{{ asset('./admin/images/slides/payments.png') }}" srcset="{{ asset('./admin/images/slides/payments2x.png 2x') }}" alt="">
                                             </div>
                                             <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                                <h4>Payments</h4>
+                                                <p>You can make Secure Payments Directly from the App so you never have to fall behind on your payments.</p>
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->
                                     <div class="slider-item">
                                         <div class="nk-feature nk-feature-center">
                                             <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
+                                                <img class="round" src="{{ asset('./admin/images/slides/scale.png') }}" srcset="{{ asset('./admin/images/slides/scale2x.png 2x') }}" alt="">
                                             </div>
                                             <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                                <h4>Flexible</h4>
+                                                <p>Tune Up or Tune Down your service directly from the app, the power is in your hands.</p>
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->

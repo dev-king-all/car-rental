@@ -82,33 +82,33 @@ Session::put('role', 'admin');
                                     <div class="slider-item">
                                         <div class="nk-feature nk-feature-center">
                                             <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-a.png') }}" srcset="{{ asset('./admin/images/slides/promo-a2x.png 2x') }}" alt="">
+                                                <img class="round" src="{{ asset('./admin/images/slides/dashboarda.png') }}" srcset="{{ asset('./admin/images/slides/dashboarda2x.png 2x') }}" alt="">
                                             </div>
                                             <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                                <h4>Dashboard</h4>
+                                                <p>Get a Quick overview of how things are going in your company with a powerfull Dashboard that gives you these insights.</p>
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->
                                     <div class="slider-item">
                                         <div class="nk-feature nk-feature-center">
                                             <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
+                                                <img class="round" src="{{ asset('./admin/images/slides/lead.png') }}" srcset="{{ asset('./admin/images/slides/leada2x.png 2x') }}" alt="">
                                             </div>
                                             <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                                <h4>Leads Management</h4>
+                                                <p>Quickly Convert that Hot Lead into a paying customer, with just a few clicks, at the same time gently nudge those Cold Leads.</p>
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->
                                     <div class="slider-item">
                                         <div class="nk-feature nk-feature-center">
                                             <div class="nk-feature-img">
-                                                <img class="round" src="{{ asset('./admin/images/slides/promo-b.png') }}" srcset="{{ asset('./admin/images/slides/promo-b2x.png 2x') }}" alt="">
+                                                <img class="round" src="{{ asset('./admin/images/slides/invoicea.png') }}" srcset="{{ asset('./admin/images/slides/invoicea2x.png 2x') }}" alt="">
                                             </div>
                                             <div class="nk-feature-content py-4 p-sm-5">
-                                                <h4>Dashlite</h4>
-                                                <p>You can start to create your products easily with its user-friendly design & most completed responsive layout.</p>
+                                                <h4>Finances</h4>
+                                                <p>The Transition from Esitmate to Proposal to Contract to Invoice has never been Simpler.</p>
                                             </div>
                                         </div>
                                     </div><!-- .slider-item -->
