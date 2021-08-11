@@ -186,13 +186,13 @@
                                 </ul><!-- .nk-menu-sub -->
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
-                                <a href="{{ route('users.list') }}" class="nk-menu-link" data-original-title="" title="">
+                                <a href="html/index.html" class="nk-menu-link" data-original-title="" title="">
                                     <span class="nk-menu-icon"><em class="icon ni ni-notes"></em></span>
                                     <span class="nk-menu-text">Work Logs</span>
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
-                                <a href="{{ route('users.list') }}" class="nk-menu-link" data-original-title="" title="">
+                                <a href="html/index.html" class="nk-menu-link" data-original-title="" title="">
                                     <span class="nk-menu-icon"><em class="icon ni ni-live"></em></span>
                                     <span class="nk-menu-text">Online Agents</span>
                                 </a>
@@ -204,19 +204,19 @@
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
-                                <a href="{{ route('users.list') }}" class="nk-menu-link" data-original-title="" title="">
+                                <a href="html/index.html" class="nk-menu-link" data-original-title="" title="">
                                     <span class="nk-menu-icon"><em class="icon ni ni-card-view"></em></span>
                                     <span class="nk-menu-text">Project Managerment</span>
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
-                                <a href="{{ route('users.list') }}" class="nk-menu-link" data-original-title="" title="">
+                                <a href="html/index.html" class="nk-menu-link" data-original-title="" title="">
                                     <span class="nk-menu-icon"><em class="icon ni ni-task-c"></em></span>
                                     <span class="nk-menu-text">Task Management</span>
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
-                                <a href="{{ route('users.list') }}" class="nk-menu-link" data-original-title="" title="">
+                                <a href="html/index.html" class="nk-menu-link" data-original-title="" title="">
                                     <span class="nk-menu-icon"><em class="icon ni ni-book-read"></em></span>
                                     <span class="nk-menu-text">KnowledgeBase Articles</span>
                                 </a>
@@ -225,9 +225,11 @@
                                 <h6 class="overline-title text-primary-alt">Help Desk Info</h6>
                             </li><!-- .nk-menu-heading -->
                             <li class="nk-menu-item">
-                                <a href="html/index.html" class="nk-menu-link" data-original-title="" title="">
+                                <a href="{{ route('admin.helpscout.response') }}" class="nk-menu-link" data-original-title="" title="">
                                     <span class="nk-menu-icon"><em class="icon ni ni-activity-round-fill"></em></span>
-                                    <span class="nk-menu-text">Help Desk Status</span>
+
+                                    <span class="nk-menu-text"> Help Desk Status</span>
+
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item has-sub">

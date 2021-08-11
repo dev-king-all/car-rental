@@ -4,7 +4,9 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AgentController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\HelpScoutController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
@@ -44,14 +46,19 @@ Route::get('/client/register', [MainController::class, 'clientRegister'])->name(
 
 Auth::routes();
 
+//Route::get('/index', [IndexController::class, 'index']);
 
 Route::group(['middleware' => ['auth']], function () {
-//    Route::get('/', function () {
-//        return view('welcome');
-//    });
+
 
 
     Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+//    Route::get('/admin/help-scout', [HelpScoutController::class, 'index'])->name('admin.helpscout');
+    Route::get('/admin/help-scout', [HelpScoutController::class, 'index'])->name('admin.helpscout');
+    Route::get('/admin/help-scout/response', [HelpScoutController::class, 'response'])->name('admin.helpscout.response');
+    Route::get('/admin/help-scout/response/{conversation_id}', [HelpScoutController::class, 'conversations'])->name('admin.conversation.details');
+
+
     Route::get('/admin/profile', [AdminController::class, 'profile'])->name('admin.profile');
     Route::get('/account/activity', [AdminController::class, 'accountactivity'])->name('account.activity');
     Route::get('/delete/activity/{id}', [AdminController::class, 'deleteactivity'])->name('delete.activity');

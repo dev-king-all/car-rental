@@ -41,6 +41,8 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+$app->register(HelpScout\Laravel\HelpScoutServiceProvider::class);
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

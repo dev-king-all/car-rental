@@ -163,6 +163,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
         hisorange\BrowserDetect\ServiceProvider::class,
+        HelpScout\Laravel\HelpScoutServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -230,6 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'BrowserDetect' => hisorange\BrowserDetect\Facade::class,
+        'HelpScout' => HelpScout\Laravel\HelpScoutFacade::class,
 
     ],
 
