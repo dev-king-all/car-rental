@@ -66,8 +66,8 @@ class HelpScoutController extends Controller
         dd($customers);
         $client = ApiClientFactory::createClient();
         $client = $client->swapAuthorizationCodeForReusableTokens(
-            '1XKQM5Mgv7TJ3vcrT5SECXpgquHq2wGw',
-            'gXe4oG3BtWwY1UwPjJLtmDBakqUYoqjj',
+            'mrOd0ld4BqP7ZQ07WfpUs7CB9SOr6N1l',
+            'pkQHF73HGdC9dSfMx2KwlGY14MV0N3Ou',
             '23111'
         );
 
