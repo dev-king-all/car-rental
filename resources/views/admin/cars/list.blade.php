@@ -57,13 +57,11 @@
                                                                 <div class="simplebar-content-wrapper" tabindex="0" role="region" aria-label="scrollable content" style="height: 100%; overflow: hidden scroll;">
                                                                     <div class="simplebar-content" style="padding: 0px;">
                                                                         <div class="nk-ibx-item">
-                                                                            <div class="nk-ibx-item-elem">
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
                                                                                 <div class="lead-text">No</div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-user">
-                                                                                <div class="user-card">
-                                                                                    <div class="lead-text">ID</div>
-                                                                                </div>
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
+                                                                                <div class="lead-text">ID</div>
                                                                             </div>
                                                                             <div class="nk-ibx-item-elem nk-ibx-item-fluid">
                                                                                 <div class="lead-text">
@@ -75,17 +73,22 @@
                                                                                     Type
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-time">
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
                                                                                 <div class="lead-text">
                                                                                     Status
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-time">
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
                                                                                 <div class="lead-text">
-                                                                                    Extra
+                                                                                    Person
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-tools">
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
+                                                                                <div class="lead-text">
+                                                                                    Time
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-tools" style = "margin-left: -20px;">
                                                                                 <div class="lead-text">
                                                                                     Actions
                                                                                 </div>
@@ -95,34 +98,26 @@
                                                                         @foreach($carData as $car)
                                                                         <div class="nk-ibx-item">
                                                                             <a data-id={{$car->id}} href="{{URL::to('/cars/details/'.$car->id)}}" class="nk-ibx-link current"></a>
-                                                                            <div class="nk-ibx-item-elem">
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
                                                                                 <div class="lead-text">{{$i}}</div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-user">
-                                                                                <div class="user-card">
-                                                                                    <div class="user-name">
-                                                                                        <div class="lead-text">
-                                                                                            {{$car->make_id}}
-                                                                                        </div>
-                                                                                    </div>
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
+                                                                                <div class="lead-text">
+                                                                                    {{$car->make_id}}
                                                                                 </div>
                                                                             </div>
                                                                             <div class="nk-ibx-item-elem nk-ibx-item-fluid">
-                                                                                <div class="nk-ibx-context-group">
-                                                                                    <div class="nk-ibx-context">
-                                                                                        <span class="nk-ibx-context-text">
-                                                                                            {{$car->make_name}}
-                                                                                        </span>
-                                                                                    </div>
+                                                                                <div class="lead-text">
+                                                                                    {{$car->make_name}}
                                                                                 </div>
                                                                             </div>
                                                                             <div class="nk-ibx-item-elem nk-ibx-item-fluid">
-                                                                                <div class="sub-text">
+                                                                                <div class="lead-text">
                                                                                     {{$car->vehicle_type_name}}
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-time">
-                                                                                <div class="sub-text">
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
+                                                                                <div class="lead-text">
                                                                                     @php($s_id = $car->id.'_status')
                                                                                     @if($car->status == 'open')
                                                                                     <span id={{$s_id}} class="badge badge-dim badge-sm badge-outline-success">{{$car->status}}</span>
@@ -135,13 +130,14 @@
                                                                                     @endif
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="nk-ibx-item-elem nk-ibx-item-time">
-                                                                                <div class="user-card">
-                                                                                    <div class="user-name">
-                                                                                        <div class="lead-text">
-
-                                                                                        </div>
-                                                                                    </div>
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
+                                                                                <div class="lead-text">
+                                                                                    {{$car->person}}
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="nk-ibx-item-elem nk-ibx-item-fluid">
+                                                                                <div class="lead-text">
+                                                                                    {{$car->time}}
                                                                                 </div>
                                                                             </div>
                                                                             <div class="nk-ibx-item-elem nk-ibx-item-tools">
@@ -152,11 +148,11 @@
                                                                                                 <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
                                                                                                 <div class="dropdown-menu dropdown-menu-right">
                                                                                                     <ul class="link-list-opt no-bdr">
-                                                                                                        @if($car->status == 'open')
+                                                                                                        @if($car->status != 'checkout')
                                                                                                         <li><a data-id="{{$car->id}}" class="dropdown-item check_out_action" data-target="#modalForm" data-toggle="modal" href="javascript:;"><em class="icon ni ni-check-thick"></em><span>Check Out</span></a>
                                                                                                         </li>
-                                                                                                        @elseif($car->status == 'check_out')
-                                                                                                        <li><a data-id="{{$car->id}}" class="dropdown-item return" href="javascript:;"><em class="icon ni ni-circle"></em><span>Return</span></a>
+                                                                                                        @elseif($car->status == 'checkout')
+                                                                                                        <li><a data-id="{{$car->id}}" class="dropdown-item return_action" href="javascript:;"><em class="icon ni ni-circle"></em><span>Return</span></a>
                                                                                                         </li>
                                                                                                         @endif
                                                                                                     </ul>

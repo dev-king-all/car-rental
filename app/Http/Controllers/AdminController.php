@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
+use Carbon\Carbon;
 use Mail;
 
 class AdminController extends Controller
@@ -353,6 +354,8 @@ class AdminController extends Controller
     {
         $car = Car::find($id);
         $car->status = 'checkout';
+        $car->person = $request->input('name');
+        $car->time = $request->input('time');
         $car->save();
         return $car->make_name;
     }
@@ -360,6 +363,7 @@ class AdminController extends Controller
     {
         $car = Car::find($id);
         $car->status = 'return';
+        $car->time = Carbon::now();
         $car->save();
         return $car->make_name;
     }

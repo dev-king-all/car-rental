@@ -4,6 +4,7 @@ const refreshPage = () => {
 $(document).ready(function(){
     console.log('Greetings from nishimurastaros@outlook.com');
     var car_id = 0;
+    var refresh = $('#nishimura_refresh').val();
     $('.check_out_action').click(function(){
         car_id = $(this).data('id');
     })
@@ -22,6 +23,24 @@ $(document).ready(function(){
                     $('#'+id+'_status').removeClass();
                     $('#'+id+'_status').addClass('badge badge-dim badge-sm badge-outline-success');
                     $('#'+id+'_status').text('Staged');
+                }
+            }
+        });
+    })
+    $('.return_action').click(function(){
+        console.log('Returning...');
+        var id = $(this).data('id');
+        let url = document.location.origin + '/cars/return/' + id;
+        let _token = $('#_token').val();
+        $.post(url, {_token}, function(data){
+            if (data) {
+                console.log(data);
+                if(refresh == "1") 
+                    document.location.reload();
+                else {
+                    $('#'+id+'_status').removeClass();
+                    $('#'+id+'_status').addClass('badge badge-dim badge-sm badge-outline-success');
+                    $('#'+id+'_status').text('return');
                 }
             }
         });
