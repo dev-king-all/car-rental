@@ -83,6 +83,14 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/auth/save', [MainController::class, 'save'])->name('auth.save');
     Route::get('auth/facebook', [SocialController::class, 'facebookRedirect']);
     Route::get('auth/facebook/callback', [SocialController::class, 'loginWithFacebook']);
+    // nishimura
+    Route::get('/cars/list/{filter}', [AdminController::class, 'cars']);
+    Route::get('/cars/details/{id}', [AdminController::class, 'dtails']);
+    // Route::get('/cars/kanban', [AdminController::class, 'kanban']);
+    Route::post('/cars/checkout/{id}', [AdminController::class, 'checkout']);
+    Route::post('/cars/return/{id}', [AdminController::class, 'return']);
+// test
+    Route::get('/test', [AdminController::class, 'updateDB']);
 });
 
 Route::get('/', [HomeController::class, 'index']);

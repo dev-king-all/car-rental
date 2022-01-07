@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\RecruitementMails;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -14,7 +15,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            UsersTableDataSeeder::class,
+            // UsersTableDataSeeder::class,
+            RecruitementMailsSeeder::class
         ]);
     }
 }

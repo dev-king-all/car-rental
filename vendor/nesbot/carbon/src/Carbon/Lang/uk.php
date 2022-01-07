@@ -31,7 +31,7 @@ $processHoursFunction = function (\Carbon\CarbonInterface $date, string $format)
  * - Tsutomu Kuroda
  * - tjku
  * - Max Melentiev
- * - Oleh
+ * - nishimura
  * - epaminond
  * - Juanito Fatas
  * - Vitalii Khustochka

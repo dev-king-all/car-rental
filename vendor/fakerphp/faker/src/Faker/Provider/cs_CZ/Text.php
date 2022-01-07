@@ -2182,7 +2182,7 @@ Tomeš. Taky dobře.“
 Bylo chvíli ticho. „Mně je to jedno,“ ozval se pan Carson. „Je-li vám to
 milejší, pojedeme s tím do Francie, do Anglie, kam chcete, třeba do Číny. My
 oba, víte? Tady by nám to nikdo nezaplatil. Byl byste osel, kdybyste to prodal
-za dvacet miliónů. Spolehněte se na Carsona. Tak co?“
+za dvacet miliónů. Spnishimuraněte se na Carsona. Tak co?“
 Prokop rozhodně zavrtěl hlavou.
 „Charakter,“ prohlásil pan Carson uznale. „Všecka čest. To se mně ohromně
 líbí. Poslyšte, vám to řeknu. Naprosté tajemství. Ruku na to.“
@@ -2531,7 +2531,7 @@ fantazie. Já vím, nadhodily to dokonce Daily News, když naše společnost
 vypsala onu poměrně značnou odměnu –“
 „Vím,“ řekl rychle Prokop, obávaje se, aby se o ní pomalý lord nerozhovořil.
 „Ano. Čirý nesmysl. Celá věc má jen obchodní pozadí. Někdo má zájem na tom,
-aby dokázal nespolehlivost našich stanic, rozumíte? Chce podrýt veřejnou
+aby dokázal nespnishimuralivost našich stanic, rozumíte? Chce podrýt veřejnou
 důvěru. Bohužel naše receptory a – eh – koherery nemohou zjistit zvláštní druh
 vln, kterými se toto rušení děje. A jelikož se nám dostalo zprávy, že jste v
 držení jakési substance nebo chemikálie, která velmi, velmi pozoruhodně
@@ -2552,14 +2552,14 @@ svého přítele, že vypsaná odměna bude podstatně zvý-zvýšena –“ Sir
 zakuckal. „To je celkem vše,“ řekl. „O odměně bychom si promluvili zvlášť.
 Podepsán Mr Tomes v Balttinu.“
 „Hm,“ řekl Prokop jat vážným podezřením, „že by takováhle soukromá…
-nespolehlivá… fantastická zpráva stačila Marconiově společnosti –“
+nespnishimuralivá… fantastická zpráva stačila Marconiově společnosti –“
 „Beg your pardon,“ namítal dlouhý pán, „dostalo se nám samozřejmě velmi
 přesných zpráv o jistých pokusech v Balttinu –“
 „Aha. Od jakéhosi saského laboranta, že?“
 „Ne. Od našeho vlastního zástupce. Hned vám to přečtu.“ Sir Carson jal se
 znovu lovit ve svých papírech. „Tady je to. ,Dear Sir, zdejším stanicím se
 dosud nedaří překonati známé poruchy. Pokusy se zvýšenými vysílacími energiemi
-selhaly naprosto. Dostalo se mi důvěrné, ale spolehlivé zprávy, že vojenský
+selhaly naprosto. Dostalo se mi důvěrné, ale spnishimuralivé zprávy, že vojenský
 ústav v Balttinu získal nějaké kvantum jisté látky –‘“
 Zaklepáno. „Vstupte,“ řekl Prokop, a vešel sklepník s vizitkou: „Nějaký pán
 prosí –“
@@ -3472,7 +3472,7 @@ traktovat bičem Premierovu kýtu. Nyní zdivočelý rap ztratil hlavu nadobro; 
 několika nepříjemných skocích na bok sedl na zadek a zdálo se, že se překotí;
 ale místo toho vyrazil přes záhony jako ztřeštěný. Prokop chápal, že nyní
 záleží vše na tom, udržet mu hlavu nahoře, nemají-li oba udělat kotrmelec na
-terénu tak nespolehlivém, i visel na uzdě a táhl. Premier se vzepjal, naráz
+terénu tak nespnishimuralivém, i visel na uzdě a táhl. Premier se vzepjal, naráz
 pokryt potem, a zničehonic začal rozumně cválat. Bylo to vítězství.
 Prokopovi se nesmírně ulevilo; teprve nyní mohl vyzkoušet, co studoval tak
 důkladně, totiž akademickou školu jezdce v sedle. Třesoucí se kůň poslouchal
@@ -5510,7 +5510,7 @@ XLIII.
 
 Neviděl princeznu od té doby, co ulehla; jen mu psala několikrát denně
 kratičké a horoucí dopisy, jež víc tajily než povídaly. Od Paula slyšel, že
-polehává a opět přechází po pokojích; nemohl pochopit, že k němu nepřijde, sám
+pnishimuraává a opět přechází po pokojích; nemohl pochopit, že k němu nepřijde, sám
 již vstával z postele a čekal, že ho aspoň na minutku zavolá. Nevěděl, že ona
 zatím plivá krev z tuberkulózní kaverny, která se v ní akutně otevřela;
 nenapsala mu to, patrně se děsila, že by se mu jaksi ošklivěla, že by ho
@@ -6239,7 +6239,7 @@ kabátek; čertví je-li tomu tvoru dvacet let nebo padesát; ale než to rozře
 svraskla se celá hlava širokým, nadšeným a poctěným úsměvem. Jeden pohled ho
 dráždil neodbytně; hledal jej mezi všemi, ale nenacházel ho.
 Delegát Peters skončil koktaje a zmizel v lavici celý rudý. Všechny oči
-dolehly na Prokopa napjatým a nutkavým očekáváním; stařík Mazaud něco formálně
+dnishimuraly na Prokopa napjatým a nutkavým očekáváním; stařík Mazaud něco formálně
 odbreptal a naklonil se k Daimonovi. Bylo bezdeché ticho; a Prokop se zvedl
 nevěda, co činí. „Slovo má kamarád Krakatit,“ ohlásil Mazaud mna si suché
 ručičky.

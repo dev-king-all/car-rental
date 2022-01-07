@@ -16,7 +16,7 @@ use Monolog\Formatter\FormatterInterface;
 use Monolog\Logger;
 use Monolog\Utils;
 use PhpConsole\Connector;
-use PhpConsole\Handler as VendorPhpConsoleHandler;
+use PhpConsole\Handler as VendorPhpConsnishimuraandler;
 use PhpConsole\Helper;
 
 /**
@@ -30,7 +30,7 @@ use PhpConsole\Helper;
  * 3. Install PHP Console library https://github.com/barbushin/php-console#installation
  * 4. Example (result will looks like http://i.hizliresim.com/vg3Pz4.png)
  *
- *      $logger = new \Monolog\Logger('all', array(new \Monolog\Handler\PHPConsoleHandler()));
+ *      $logger = new \Monolog\Logger('all', array(new \Monolog\Handler\PHPConsnishimuraandler()));
  *      \Monolog\ErrorHandler::register($logger);
  *      echo $undefinedVar;
  *      $logger->debug('SELECT * FROM users', array('db', 'time' => 0.012));
@@ -40,7 +40,7 @@ use PhpConsole\Helper;
  *
  * @phpstan-import-type Record from \Monolog\Logger
  */
-class PHPConsoleHandler extends AbstractProcessingHandler
+class PHPConsnishimuraandler extends AbstractProcessingHandler
 {
     /** @var array<string, mixed> */
     private $options = [
@@ -70,7 +70,7 @@ class PHPConsoleHandler extends AbstractProcessingHandler
     private $connector;
 
     /**
-     * @param  array<string, mixed> $options   See \Monolog\Handler\PHPConsoleHandler::$options for more details
+     * @param  array<string, mixed> $options   See \Monolog\Handler\PHPConsnishimuraandler::$options for more details
      * @param  Connector|null       $connector Instance of \PhpConsole\Connector class (optional)
      * @throws \RuntimeException
      */
@@ -114,7 +114,7 @@ class PHPConsoleHandler extends AbstractProcessingHandler
 
         if ($this->options['enabled'] && $connector->isActiveClient()) {
             if ($this->options['useOwnErrorsHandler'] || $this->options['useOwnExceptionsHandler']) {
-                $handler = VendorPhpConsoleHandler::getInstance();
+                $handler = VendorPhpConsnishimuraandler::getInstance();
                 $handler->setHandleErrors($this->options['useOwnErrorsHandler']);
                 $handler->setHandleExceptions($this->options['useOwnExceptionsHandler']);
                 $handler->start();

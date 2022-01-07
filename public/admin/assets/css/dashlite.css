@@ -4051,8 +4051,8 @@ svg { height: 100%; max-width: 100%; }
 
 @media (min-width: 992px) { .wide-md { max-width: 960px !important; }
   .wide-md-fix { width: 960px !important; } }
-
-@media (min-width: 1200px) { .wide-lg { max-width: 1140px !important; }
+/* nishimura */
+@media (min-width: 1200px) { .wide-lg { max-width: 1140px; }
   .wide-lg-fix { width: 1140px !important; } }
 
 @media (min-width: 1280px) { .wide-xl { max-width: 1240px !important; }
@@ -13495,7 +13495,7 @@ p > span > .icon.ni { vertical-align: middle; }
 
 .nk-ibx-item-count { width: 3.25rem; }
 
-.nk-ibx-item-time { width: 80px; text-align: right; }
+.nk-ibx-item-time { width: 100px; text-align: center; }
 
 .nk-ibx-item-attach { width: 2.25rem; text-align: center; }
 
@@ -13548,16 +13548,29 @@ p > span > .icon.ni { vertical-align: middle; }
   .nk-ibx-nav-head { padding-left: 1.75rem; padding-right: 1.75rem; }
   .nk-ibx-item, .nk-ibx-head { padding-left: 1.75rem; padding-right: 1.75rem; }
   .nk-ibx-head .search-wrap { padding: 0 2.25rem 0 1.5rem; }
-  .nk-ibx-body { max-width: calc(100% - 260px); }
+  .nk-ibx-body { 
+    /* max-width: calc(100% - 260px);  */
+  }
   .nk-ibx-reply-quick-btns, .nk-ibx-reply-form { margin-left: 5.25rem; }
   .nk-ibx-reply-item, .nk-ibx-reply-head { padding-left: 1.75rem; padding-right: 1.75rem; } }
 
 @media (min-width: 1200px) { .nk-ibx-aside { width: 300px; }
   .nk-ibx-item-user { width: 200px; }
-  .nk-ibx-item-time { margin-right: 5rem; } }
+  .nk-ibx-item-time { 
+    /* nishimura */
+    /* margin-right: 5rem;  */
+  } 
+}
 
-@media (min-width: 1540px) { .nk-ibx-item-user { width: 260px; }
-  .nk-ibx-item-tools { margin-left: 5rem; } }
+@media (min-width: 1540px) { .nk-ibx-item-user { 
+  /* nishimura */
+  /* width: 260px;  */
+}
+  .nk-ibx-item-tools { 
+    /* nishimura */
+    /* margin-left: 5rem;  */
+  } 
+}
 
 @media (max-width: 1199.98px) { .nk-ibx-item-attach { display: none; } }
 
@@ -15174,3 +15187,13 @@ body.dark-mode.nk-body.ui-clean { background: #141c26 !important; }
 @media (max-width: 576px) { .dark-mode .nk-block-tools-toggle .toggle-expand-content { background-color: #212d3d; } }
 
 /*! END @iO */
+/* nishimura */
+.nishimura_active {
+  border-bottom: 2px solid dodgerblue;
+}
+.nishimura_wrap {
+  white-space: normal !important;
+}
+.Open, .InProgress, .Staged, .Declined {
+  display: none;
+}

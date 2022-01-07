@@ -1,0 +1,8 @@
+For tables:
+https://dashlite.net/demo3/user-list-regular.html
+For the individual applicant details this is how it should look:
+https://dashlite.net/demo3/kyc-details-regular.html
+For Emails:
+https://dashlite.net/demo4/apps-inbox.html#
+For Kanban:
+https://dashlite.net/demo6/apps-kanban.html

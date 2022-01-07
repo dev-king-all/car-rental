@@ -62,12 +62,12 @@
 
   * Fixed normalization of Traversables to avoid traversing them as not all of them are rewindable
   * Fixed setFormatter/getFormatter to forward to the nested handler in FilterHandler, FingersCrossedHandler, BufferHandler, OverflowHandler and SamplingHandler
-  * Fixed BrowserConsoleHandler formatting when using multiple styles
+  * Fixed BrowserConsnishimuraandler formatting when using multiple styles
   * Fixed normalization of exception codes to be always integers even for PDOException which have them as numeric strings
   * Fixed normalization of SoapFault objects containing non-strings as "detail"
   * Fixed json encoding across all handlers to always attempt recovery of non-UTF-8 strings instead of failing the whole encoding
   * Fixed ChromePHPHandler to avoid sending more data than latest Chrome versions allow in headers (4KB down from 256KB).
-  * Fixed type error in BrowserConsoleHandler when the context array of log records was not associative.
+  * Fixed type error in BrowserConsnishimuraandler when the context array of log records was not associative.
 
 ### 2.0.0 (2019-08-30)
 
@@ -148,7 +148,7 @@
 
   * Fixed normalization of Traversables to avoid traversing them as not all of them are rewindable
   * Fixed setFormatter/getFormatter to forward to the nested handler in FilterHandler, FingersCrossedHandler, BufferHandler and SamplingHandler
-  * Fixed BrowserConsoleHandler formatting when using multiple styles
+  * Fixed BrowserConsnishimuraandler formatting when using multiple styles
   * Fixed normalization of exception codes to be always integers even for PDOException which have them as numeric strings
   * Fixed normalization of SoapFault objects containing non-strings as "detail"
   * Fixed json encoding across all handlers to always attempt recovery of non-UTF-8 strings instead of failing the whole encoding
@@ -183,7 +183,7 @@
   * Added RavenHandler support for a `contexts` context or extra key to forward that to Sentry's contexts
   * Added forwarding of context info to FluentdFormatter
   * Added SocketHandler::setChunkSize to override the default chunk size in case you must send large log lines to rsyslog for example
-  * Added ability to extend/override BrowserConsoleHandler
+  * Added ability to extend/override BrowserConsnishimuraandler
   * Added SlackWebhookHandler::getWebhookUrl and SlackHandler::getToken to enable class extensibility
   * Added SwiftMailerHandler::getSubjectFormatter to enable class extensibility
   * Dropped official support for HHVM in test builds
@@ -259,7 +259,7 @@
   * Fixed SlackHandler bug where slack dropped messages randomly
   * Fixed RedisHandler issue when using with the PHPRedis extension
   * Fixed AmqpHandler content-type being incorrectly set when using with the AMQP extension
-  * Fixed BrowserConsoleHandler regression
+  * Fixed BrowserConsnishimuraandler regression
 
 ### 1.18.0 (2016-03-01)
 
@@ -312,12 +312,12 @@
   * Added automatic creation of directories if they are missing for a StreamHandler to open a log file
   * Added retry functionality to Loggly, Cube and Mandrill handlers so they retry up to 5 times in case of network failure
   * Fixed process exit code being incorrectly reset to 0 if ErrorHandler::registerExceptionHandler was used
-  * Fixed HTML/JS escaping in BrowserConsoleHandler
+  * Fixed HTML/JS escaping in BrowserConsnishimuraandler
   * Fixed JSON encoding errors being silently suppressed (PHP 5.5+ only)
 
 ### 1.14.0 (2015-06-19)
 
-  * Added PHPConsoleHandler to send record to Chrome's PHP Console extension and library
+  * Added PHPConsnishimuraandler to send record to Chrome's PHP Console extension and library
   * Added support for objects implementing __toString in the NormalizerFormatter
   * Added support for HipChat's v2 API in HipChatHandler
   * Added Logger::setTimezone() to initialize the timezone monolog should use in case date.timezone isn't correct for your app
@@ -400,7 +400,7 @@
 ### 1.8.0 (2014-03-23)
 
   * Break: the LineFormatter now strips newlines by default because this was a bug, set $allowInlineLineBreaks to true if you need them
-  * Added BrowserConsoleHandler to send logs to any browser's console via console.log() injection in the output
+  * Added BrowserConsnishimuraandler to send logs to any browser's console via console.log() injection in the output
   * Added FilterHandler to filter records and only allow those of a given list of levels through to the wrapped handler
   * Added FlowdockHandler to send logs to a Flowdock account
   * Added RollbarHandler to send logs to a Rollbar account

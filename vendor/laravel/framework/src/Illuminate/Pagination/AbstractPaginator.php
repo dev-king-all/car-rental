@@ -113,7 +113,8 @@ abstract class AbstractPaginator implements Htmlable
      *
      * @var string
      */
-    public static $defaultView = 'pagination::tailwind';
+    // public static $defaultView = 'pagination::tailwind';
+    public static $defaultView = 'pagination::default';
 
     /**
      * The default "simple" pagination view.
